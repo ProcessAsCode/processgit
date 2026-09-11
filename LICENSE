@@ -15,7 +15,7 @@ consists of two distinct bodies of code:
   (b) Original Additions — the original code, schemas, templates, viewers
       and editors, UAPF and UAPF-IP integration, MCP server and chat-agent
       functionality, branding, and other material added to, or built upon,
-      the Upstream Components by or for Algomation-AI.
+      the Upstream Components by or for Cyberfort SIA.
 
       The Original Additions are NOT placed under blanket MIT terms. They
       are dual-licensed: permitted free use is defined in LICENSE-COMMERCIAL,
@@ -26,14 +26,18 @@ consists of two distinct bodies of code:
 If this file and LICENSE-COMMERCIAL appear to conflict as to the Original
 Additions, LICENSE-COMMERCIAL governs.
 
-This NOTICE and LICENSE-COMMERCIAL are a DRAFT pending review by legal
-counsel; they are not legal advice.
+The Licensor of the Original Additions is Cyberfort SIA, registration
+number 40203459193, registered in the Republic of Latvia. Commercial
+licensing: info@cyberfort.lv
+
+This NOTICE and LICENSE-COMMERCIAL have not been reviewed by legal counsel
+and are not legal advice.
 
 ---------------------------------------------------------------------------
 MIT License — applicable to the Upstream Components
 
 Copyright (c) The Gitea Authors
-Copyright (c) 2025 Algomation-AI (modifications)
+Copyright (c) 2025-2026 Cyberfort SIA, reg. 40203459193, Latvia (modifications)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
