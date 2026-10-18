@@ -224,7 +224,7 @@ mcp:
   use_repo_mcp: true
   additional_servers:
     - name: "org-register"
-      url: "https://processgit.org/VARAM/Organizations/mcp"
+      url: "https://processgit.org/example-org/Organizations/mcp"
       description: "Organization register"
   allowed_tools:
     - search

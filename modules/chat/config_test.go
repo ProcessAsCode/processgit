@@ -113,7 +113,7 @@ func TestResolveAPIKey(t *testing.T) {
 	})
 
 	t.Run("OrgPrefix", func(t *testing.T) {
-		_, err := ResolveAPIKey("org:varam:anthropic_key")
+		_, err := ResolveAPIKey("org:example-org:anthropic_key")
 		assert.Error(t, err)
 		assert.Contains(t, err.Error(), "not yet implemented")
 	})

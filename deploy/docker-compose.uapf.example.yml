@@ -8,7 +8,7 @@
 #   docker compose -f docker-compose.yml -f docker-compose.uapf.example.yml \
 #                  --profile bundled-engine up -d
 #
-#   # Host where an engine already runs on the same network (e.g. Kojusalas:
+#   # Host where an engine already runs on the same network (e.g. when
 #   # the opendms stack already provides 'uapf-engine' on deploy_default):
 #   docker compose -f docker-compose.yml -f docker-compose.uapf.example.yml up -d
 #
@@ -34,7 +34,7 @@ services:
 
   # --- Bundled UAPF engine (fresh installs) -----------------------------------
   # Enabled only with `--profile bundled-engine`. On hosts where an engine is
-  # already present on the same docker network (Kojusalas: the opendms stack
+  # already present on the same docker network (e.g. the opendms stack
   # provides 'uapf-engine' on deploy_default), DO NOT enable this profile — the
   # processgit env above already reaches the existing engine.
   uapf-engine:
