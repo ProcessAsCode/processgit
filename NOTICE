@@ -1,10 +1,21 @@
-ProcessGit is based on Gitea, Copyright (c) 2015 The Gogs Authors and
-Copyright (c) 2016 The Gitea Authors, licensed under the MIT License.
+ProcessGit
+Part of the Process-as-Code open-source stack: https://github.com/ProcessAsCode
 
-This repository includes modified and extended work derived from Gitea.
-Gitea: https://github.com/go-gitea/gitea
-License: see LICENSE in this repository.
+Licensing
+---------
+ProcessGit is a fork of Gitea.
 
-This repository also distributes client-side components from the bpmn.io project
-(including toolkits such as bpmn-js, dmn-js, and cmmn-js). Their license terms
-are available at: https://bpmn.io/license
+- Upstream components: the Gitea source code, Copyright (c) 2015 The Gogs
+  Authors and Copyright (c) 2016 The Gitea Authors, remain under the MIT
+  License. See LICENSE-MIT.
+
+- ProcessGit additions: the UAPF and UAPF-IP integration, MCP server and chat
+  agents, viewers and editors, schemas and templates,
+  Copyright (c) 2025-2026 Cyberfort SIA, are licensed under the GNU Affero
+  General Public License v3.0 only (AGPL-3.0-only). See LICENSE.
+
+Third-party components
+----------------------
+This repository distributes client-side components from the bpmn.io project
+(bpmn-js, dmn-js, cmmn-js). Their licence terms, including the requirement to
+keep the bpmn.io watermark visible, are available at https://bpmn.io/license

@@ -833,30 +833,14 @@ Contributions are welcome. Please open an issue to discuss significant changes b
 
 ## License
 
-ProcessGit is a fork of Gitea and is licensed in two parts.
+ProcessGit is a fork of Gitea and is open source.
 
-### Upstream Components — MIT
+- **ProcessGit additions** (UAPF / UAPF-IP integration, MCP server and chat
+  agents, viewers and editors, schemas and templates) are licensed under the
+  **GNU Affero General Public License v3.0** — see [LICENSE](LICENSE).
+- **Upstream Gitea components** remain under the **MIT License** — see
+  [LICENSE-MIT](LICENSE-MIT).
+- Third-party notices are in [NOTICE](NOTICE).
 
-The Gitea source code and its dependencies remain under the MIT License
-(see [LICENSE](LICENSE)). This applies to everyone, at no charge.
-
-### Original Additions — dual-licensed
-
-ProcessGit's own code — UAPF / UAPF-IP integration, the MCP server and chat
-agents, viewers and editors, schemas, templates and branding — is dual-licensed:
-
-- **Free use** — at no charge for personal, academic, internal non-commercial,
-  and evaluation use, as defined in [LICENSE-COMMERCIAL](LICENSE-COMMERCIAL),
-  Section 3.
-- **Commercial license required** — for SaaS / hosting, redistribution,
-  embedding, provision to external users, rebranding, and revenue-generating
-  use (LICENSE-COMMERCIAL, Section 4).
-- **Public sector / government use** — requires a commercial license in **all
-  cases**, including internal and non-revenue use (LICENSE-COMMERCIAL,
-  Section 5).
-
-Full terms: [LICENSE](LICENSE) and [LICENSE-COMMERCIAL](LICENSE-COMMERCIAL).
-Commercial licensing enquiries: licensing@algomation.io
-
-> The commercial licensing documents are a draft pending review by legal
-> counsel.
+ProcessGit is part of the [Process-as-Code](https://github.com/ProcessAsCode)
+open-source stack.
