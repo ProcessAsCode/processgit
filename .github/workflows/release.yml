@@ -111,7 +111,7 @@ jobs:
 
       - name: Build & push Docker image
         id: build
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: deploy/Dockerfile.processgit
@@ -187,7 +187,7 @@ jobs:
 
       - name: Build & push updater image
         id: build_updater
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: updater
           file: updater/Dockerfile
